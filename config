@@ -6,6 +6,10 @@ bindsym $mod+y exec firefox -new-window -fullscreen https://youtube.com/
 for_window [class="firefox" title="YouTube"] fullscreen enable
 bindsym $mod+s exec flatpak run com.stremio.Stremio
 for_window [title="Stremio - Freedom to Stream"] fullscreen enable
+
+#
+# Please see http://i3wm.org/docs/userguide.html for a complete reference v4v4
+
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
