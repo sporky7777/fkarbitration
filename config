@@ -1,7 +1,7 @@
 # sporky7777 i3mediaplayer for shitty smart tvs
 # this is literally just a stock i3 conf pretty much besides this first bit
 
-# // media player stuff
+# // media stuff
 bindsym $mod+y exec firefox -new-window -fullscreen https://youtube.com/
 for_window [class="firefox" title="YouTube"] fullscreen enable
 bindsym $mod+s exec flatpak run com.stremio.Stremio
